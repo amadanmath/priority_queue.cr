@@ -11,7 +11,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   priority_queue:
-    github: amadanmath/priority_queue
+    github: amadanmath/priority_queue.cr
 ```
 
 ## Usage
