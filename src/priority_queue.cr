@@ -146,7 +146,7 @@ class PriorityQueue(P, T)
   private def bubble_up(index)
     return if index == 0
 
-    parent_index = (index - 1) / 2
+    parent_index = (index - 1) >> 1
     return if @elements[parent_index] >= @elements[index]
 
     exchange(index, parent_index)
